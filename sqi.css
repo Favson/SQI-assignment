@@ -1,0 +1,417 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fffef7;
+}
+
+
+header img{
+    width: 76px;
+    height: 70px;
+    margin-left: 170px;
+}
+header{
+    padding-bottom: 30px;
+    border-bottom:solid 1px;
+    border-color: rgb(244, 237, 237);
+    background-color: #fffef7;
+    position: fixed;
+    top: 0%;
+    width: 2000px;
+    z-index: 1;
+}
+/* Nav */
+nav{
+    margin-left: 600px; 
+    font-weight: bold;
+    margin-top: -40px;
+}
+
+
+nav ul{
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    color: #081f89;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    gap: 40px;
+}
+
+.About{
+      position: relative;
+  display: inline-block;
+}
+
+.dropdown{
+      display: none;
+  position: absolute;
+  background-color:transparent;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  line-height: 40px;
+}
+
+.About:hover .dropdown{
+    display: block;
+    background-color:white;
+    opacity: 0.7px;
+}
+
+nav a{
+    margin-left: 20px;
+    text-decoration: none;
+}
+/* Social Media Handle */
+.Social_media_logo i{
+    width: 50px;
+    height: 40px;
+    padding-left: 18px;
+    padding-top: 14px;
+}
+
+.Social_media_logo{
+    position: fixed;
+    top: 250px;
+    
+}
+.Social_media_logo:hover{
+    opacity: 0.7;
+}
+
+
+/* Main */
+.The_main{
+    font-size: 40px;
+    padding-left: 90px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+     background-color: #fffef7;
+}
+
+.The_main img{
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 30px;
+    height: 520px;
+    padding-top:30px;
+    width: 600px;
+    padding-right: 90px;
+    
+}
+.The_main p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.The_main h1{
+    margin-top: 130px;
+    color: #1A0052 ;
+    margin-bottom:10px;
+}
+
+.The_main button{
+    background-color: transparent;
+    color: white;
+    border:2px solid;
+    padding: 17px;
+    border-radius:10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* SCICT */
+.SCICT{
+    background-image: linear-gradient(rgba(5, 5, 45, 0.7),rgba(5,5,45, 0.7) ), url(DSC_9054-scaled.jpg); 
+    background-position: left;
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    color: white;
+   padding-bottom: 40px;
+   font-size: 18px;
+   padding-top: 50px;
+   padding-left: 600px;
+   margin-bottom: 150px
+}
+.SCICT a{
+    text-decoration: none;
+    color: blue;
+}
+.SCICT button{
+    background-color: transparent;
+    border:2px solid;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+}
+
+/* LOGOS Alumni */
+.alumni{
+    justify-content: space-around;
+    margin-left: 100px;
+}
+.alumni img{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.alumni p{
+    font-size: 25px;
+    font-weight: bold;
+}
+/* MAking Africa A tech Continent */
+.SQI_Graduate{
+    background-color: #fffef7;
+    display: flex;
+    gap: 60px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    color: rgb(75, 74, 74);
+    font-weight: 600;
+    border: none;
+    font-size: 16px;
+    line-height: 24px;
+}
+.SQI_Graduate div{
+    padding-top: 50px;
+}
+.SQI_Graduate img{
+    width: 500px;
+    height: 500px;
+    margin-left: 200px;
+}
+.SQI_Graduate h1{
+    color: rgb(61, 60, 60);
+    line-height: 50px;
+}
+
+form img{
+    width: 350px;
+    height: 250px;
+    border-radius:10px;
+    margin-left: 50px;
+}
+form{
+    padding-top: 30px;
+    width: 500px;
+    background-color: #d5eaf3;
+    border-radius: 25px;
+    font-weight:bold;
+    font-family: 'Calibri,';
+    padding-bottom: 20px;
+    margin-right: 200px;
+}
+form h2{
+    margin-left: 80px;
+    color: rgb(72, 71, 71);
+}
+form p{
+    margin-left:55px;
+}
+form a{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.Data{
+    background-color: #eeefbd;
+    border: 1px solid;
+    position: relative;
+    bottom: 60px;
+    border-radius: 58px;
+    border-radius: 58px;
+    box-shadow:  5px 5px 19px #dbc0bb,
+                 -5px -5px 19px #fffef7;
+}
+.Software_work{
+    display: flex;
+    margin-bottom: 80px;
+}
+.Study_become button{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    padding: 20px 25px;
+}
+.Software_Form{
+    margin-right: 60px;
+    padding-right: 30px;
+    margin-left: 60px;
+    border-radius: 41px;
+    background: linear-gradient(145deg, #e0fae7, #bcd3c2);
+    box-shadow:  16px 16px 32px #c7decd,
+                 -16px -16px 32px #dbf6e3;
+}
+
+/* Second Form */
+.Second_section img{
+    width: 400px;
+    height: 250px;
+    border-radius:10px;
+    margin-left: 50px;
+}
+.Second_section{
+    padding-top: 30px;
+    width: 500px;
+    background-color: #d5eaf3;
+    border-radius: 25px;
+    font-weight:bold;
+    font-family: 'Calibri,';
+    margin-right: 200px;
+}
+
+.Second_section h2{
+    margin-left: 80px;
+    color: rgb(72, 71, 71);
+}
+.Second_section p{
+    margin-left:55px;
+}
+.UI{
+    border-radius: 41px;
+
+    box-shadow:  16px 16px 32px #dbeee0,
+                 -16px -16px 32px #dbeee0;
+}
+.product2{
+    padding-right: 40px;
+    border: 1px solid;
+    position: relative;
+    bottom: 40px;
+}
+
+.Second_section a{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.product2{
+    background-color: #eeefbd;
+    border: 1px solid;
+    margin-top:-50px;
+    border-radius: 55px;
+    box-shadow:  5px 5px 19px #f5d9d6,
+                 -5px -5px 19px #ffebe8;
+}
+.Second_section{
+    display: flex;
+    margin-left: 50px;
+}
+
+.Why_study{
+    background-color: #eeeeef;
+    border: none;
+    padding-top: 30px;
+    padding-left: 40px;
+    margin-top: 100px;
+    padding-bottom: 90px;
+}
+
+.Why_study h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+.Project{
+    display: flex;
+    padding-left: 70px;
+    gap: 20px;
+}
+.Project h3{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.Project p{
+    line-height: 20px;
+    font-weight: bold;
+    color: rgb(108, 103, 103);
+}
+
+.Favour{
+    display: flex;
+    gap: 40px;
+}
+
+
+
+
+
+
+footer{
+    background-color: #1A0052;
+    padding:20px;
+    color: white;
+}
+
+
+
+
+.Take_a_tour{
+    background-image: linear-gradient(rgba(5, 5, 45, 0.7),rgba(5,5,45, 0.7) ), url(DSC_9054-scaled.jpg); 
+    background-position: left;
+    zoom: 30px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    color: white ;
+    font-weight: bold;
+    padding-left: 600px;
+    line-height: 30px;
+}
+.Take_a_tour h1{
+    font-size: 55px;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+
+.Call2action{
+    background-color: #000b3f   ;
+    color: white;
+    padding-top: 90px;
+    padding-bottom: 150px;
+    padding-left: 50px;
+    border: none;
+    font-weight: bolder;
+    padding-left: 150px;
+}
+.Call2action h1{
+    padding: 30px 0;
+    font-size: 60px;
+}
+.Call2action button{
+    padding:15px 20px;
+    border-radius: 30px;
+    background-color: #00208A;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: Arial;
+}
+
+/* Last form */
+.buttom_form{
+    background-color: #f0f1ff;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 50px;
+    padding-bottom: 90px;
+}
+.buttom_form img{
+    width: 100%;
+}
+.buttom_form div{
+    width: 90%;
+    margin-left: 50px;
+}
+.Last{
+    display: flex;
+    gap: 50px;
+}
